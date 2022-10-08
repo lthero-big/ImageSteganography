@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    background-color: rgb(234, 234, 239);
+}
+
+body, textarea, input {
+    font-family: Helvetica, Arial;
+    border: none;
+}
+
+a {
+    color: dimgray;
+}
+a:hover{
+    color: dimgray;
+    text-decoration: none;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+.section {
+    /*width: 1050px;*/
+    width:66%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+@media (max-width: 700px) {
+    .section {
+        width: 90%;
+    }
+
+    h1 {
+        margin-bottom: 60px;
+    }
+}
+
+.dark {
+    /*background-color: lightgray;*/
+    background-color: rgb(199.237.204);
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgray;
+}
+
+.sectionbody {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.step {
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-color: dimgray;
+    color: lightgray;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.left {
+    width: 48%;
+    float: left;
+    text-align: center;
+    
+}
+
+.right {
+    width: 48%;
+    float: right;
+    text-align: center;
+}
+
+.password {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    height: 100px;
+}
+
+.submit {
+    float: right;
+}
+
+.preview {
+    margin-top: 20px;
+    width: 60%;
+    float: none;
+    height: 60%;
+	text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+#output[src] {
+    margin-bottom: 1em;
+    box-shadow: 0px 0.5em 1em rgba(0,0,0,0.5);
+}
